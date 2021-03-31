@@ -39,8 +39,6 @@ public class LoginModel {
 
             resultSet = preparedStatement.executeQuery();
 
-            boolean boll1;
-
             if(resultSet.next()) {
                 return true;
             }
